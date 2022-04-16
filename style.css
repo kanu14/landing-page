@@ -1,1 +1,14 @@
 /* Style for landing page test*/
+
+body {
+    height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.blue {
+    background-color: #1f2937;
+    color: white;
+}

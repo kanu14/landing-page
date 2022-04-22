@@ -1,14 +1,98 @@
 /* Style for landing page test*/
 
 body {
-    height: 100%;
-    
+    height: 100vh;
+    margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    
     
 }
 
 .blue {
     background-color: #1f2937;
     color: white;
+    text-decoration: none;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+
+.bottom-half {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.header-links {
+    display: flex;
+    padding-right: 50px;
+    gap: 28px;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    
+}
+
+.header-bottom {
+    display: flex;
+    /* margin: 20px; */
+    height: 200px;
+    
+}
+
+button {
+    width: 90px;
+    background-color: #3882f6;
+    color: white;
+}
+
+.awesome {
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.awesome-text {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.header-bottom > img {
+    height: 150px;
+    width: 200px;
+    border-style: solid;
+    
+    border-color: white;
+}
+
+.images > img {
+    height: 40px;
+    width: 40px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.random-info {
+    display: flex;
 }

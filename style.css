@@ -10,12 +10,17 @@ body {
     
 }
 
+.blue,
+.bottom-half { 
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
 .blue {
     background-color: #1f2937;
     color: white;
     text-decoration: none;
-    padding-left: 80px;
-    padding-right: 80px;
+    
     
 }
 
@@ -23,8 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 80px;
-    padding-right: 80px;
+    
 }
 
 .header {
@@ -32,8 +36,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding-top: 20px;
-    padding-bottom: 20px;
-    font-weight: bold;
+    padding-bottom: 60px;
+    font-weight: bolder;
 }
 
 .header-links {
@@ -67,6 +71,7 @@ button {
     width: 90px;
     background-color: #3882f6;
     color: white;
+    margin: 4px;
 }
 
 .awesome {
@@ -74,6 +79,7 @@ button {
     flex-direction: column;
     font-size: 32px;
     font-weight: bold;
+    padding-right: 30px;
 }
 
 .awesome-text {
@@ -83,7 +89,7 @@ button {
 
 .header-bottom > img {
     height: 150px;
-    width: 200px;
+    width: 400px;
     border-style: solid;
     
     border-color: white;
@@ -94,13 +100,24 @@ button {
     width: 100px;
     border-style: solid;
     border-color: blue;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
     
+}
+
+.bottom-header {
+    font-size: 26px;
+    font-weight: bolder;
+    padding: 20px;
 }
 
 .images {
     display: flex;
     flex-wrap: wrap;
-    width: 120px;
+    width: 140px;
+    text-align: center;
+    margin: 12px;
 }
 
 .random-info {

@@ -8,7 +8,8 @@ body {
 }
 
 .blue,
-.bottom-half { 
+.bottom-half,
+.bottom-button { 
     padding-left: 120px;
     padding-right: 120px;
 }
@@ -102,6 +103,7 @@ button {
     border-radius: 12px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 4px;
     
 }
 
@@ -132,12 +134,45 @@ button {
 }
 
 .quote {
-    background-color: grey;
-    color: white;
+    background-color: rgb(207, 199, 199);
     min-height: 100px;
     margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.obama {
+    text-align: end;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.quote-text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-bottom {
+    background-color: rgb(46, 96, 231);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    color: white;
+    gap: 32px;
+}
+
+.blue-bottom > button {
+    border-radius: 8px;
+    border-color: white;
+    
+}
+
+.action {
+    font-weight: bolder;
+    
 }

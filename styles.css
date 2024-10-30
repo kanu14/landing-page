@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.background {
+    background-color: #1f2937;
+    padding: 0 150px 0 150px;
+}
+
+.header, .awesome {
+    background-color: #1f2937;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    font: 28px;
+    color: #f9faf8;
+    font-weight: 800;
+    align-items: center;
+    padding: 10px 0 30px 0;
+}
+
+.header-2 {
+    font-size: 24px;
+}
+
+.subtext {
+    font-size: 16px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+    font-weight: 500;
+}
+
+a:visited {
+    color: #f9faf8;
+}
+
+.awesome {
+    display: flex;
+    padding: 10px 0 40px 0;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.bat-examples {
+    display: flex;
+    border: 20px;
+    /* border-color: black */
+}
+
+.bat-img {
+    width: 60%;
+    height: 60%;
+    border: 4px solid blue;
+    margin: 0 5px 5px 5px;
+    border-radius: 20px;
+}
+
+.under-bat {
+    max-width: 150px;
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 50px 150px 50px 150px;
+    font-size: large;
+}
+
+.quote-text {
+    padding: 50px 80px 10px 80px;
+}
+
+.author {
+    text-align: right;
+    padding: 0 80px 0 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info, .quote, .footer, .action {
+    padding: 0 150px 0 150px;
+}
+
+.action {
+    background-color: #3882f8;
+    margin: 0 150px 0 150px;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 0 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+li {
+    list-style-type: none;
+}
+
+button  {
+    background-color: #3882f8;
+    border: 2px solid white;
+    border-radius: 5px;
+    color: wheat;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 15px 0 15px 0;
+    font-size: small;
+    margin-top: 15px;
+}
+
+.action > button {
+    margin: 20px;
+}
+
+.button-text {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
